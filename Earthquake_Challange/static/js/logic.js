@@ -40,7 +40,7 @@ let map = L.map('mapid', {
 //Pass our map layers into our layer control and add the layer control to the map.
 L.control.layers(baseMaps, overlays).addTo(map);
 
-// Accessing the Toronto airlines routes GeoJSON URL
+// Accessing the Earthquakes routes GeoJSON URL
 let SevenDEarthquake ="https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson"
 
 
@@ -109,7 +109,7 @@ d3.json(SevenDEarthquake).then(function(data) {
         }
     }).addTo(earthquakes);
     
-    //Then we add the earthquake layer to uor map.
+    //Then we add the earthquake layer to our map.
     earthquakes.addTo(map);
 
     //Create a legend control object
