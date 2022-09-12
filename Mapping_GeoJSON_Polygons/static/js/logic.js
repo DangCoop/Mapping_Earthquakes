@@ -54,16 +54,5 @@ d3.json(torontoHoods).then(function(data) {
             layer.bindPopup("<h2>Neighborhood: " + feature.properties.AREA_NAME + "</h2>");
         }
     }).addTo(map);
-        
-        
-        
-        
-    //     {
-    //     style: myStyle,
-    //     //We turn each feature into a marker on the map.
-    //     onEachFeature: function(feature, layer) {
-    //     console.log(layer);
-    //     layer.bindPopup("<h2>Airline: " + feature.properties.airline + "</h2> <hr> <h3>Destination: " + feature.properties.dst + "</h3>");
-    //     }
-    // }).addTo(map);
+    
 });
