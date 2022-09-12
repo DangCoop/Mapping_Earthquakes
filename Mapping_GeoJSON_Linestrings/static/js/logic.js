@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 //15.5.5 GeoJSON LineString type objects. Lines and new maps, popup menu for each
+=======
+//15.5.5 GeoJSON LineString type objects.
+>>>>>>> main
 
 //We create the light view tile layerthat will be the background of our map. (change from light-v10 to navigation-day-v1 map)
 let light = L.tileLayer('https://api.mapbox.com/styles/v1/mapbox/navigation-day-v1/tiles/{z}/{x}/{y}?access_token={accessToken}', {
